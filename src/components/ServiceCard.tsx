@@ -71,23 +71,35 @@ export function ServiceTeaser({
   name,
   imageKey,
   href,
+  tall,
 }: {
   name: string;
   imageKey: DemoImageKey;
   href: string;
+  tall?: boolean;
 }) {
   return (
     <Link
       href={href}
-      className="group relative overflow-hidden rounded-2xl border border-[var(--color-border)] bg-white shadow-sm"
+      className={`group relative block overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-border)] shadow-sm ${
+        tall ? "h-full min-h-[280px]" : ""
+      }`}
     >
-      <div className="relative aspect-[5/4]">
+      <div
+        className={`relative w-full ${
+          tall ? "h-full min-h-[280px]" : "aspect-[5/4]"
+        }`}
+      >
         <Image
-          src={demoImg(demoImages[imageKey], 500)}
+          src={demoImg(demoImages[imageKey], tall ? 800 : 500)}
           alt=""
           fill
           className="object-cover transition group-hover:scale-[1.03]"
-          sizes="(max-width: 768px) 50vw, 25vw"
+          sizes={
+            tall
+              ? "(max-width: 1024px) 100vw, 50vw"
+              : "(max-width: 768px) 50vw, 25vw"
+          }
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#1a2332]/75 via-transparent to-transparent" />
         <p className="absolute bottom-3 left-3 right-3 font-[family-name:var(--font-heading)] text-sm font-bold text-white sm:text-base">

@@ -34,13 +34,13 @@ export const trustBadges = [
 
 /** Unsplash — demo placeholders only; sources listed in README */
 export const demoImages = {
-  hero: "https://images.unsplash.com/photo-1607472586893-edb54aeb4253",
+  hero: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
   emergency: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1",
   drains: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a",
-  hotWater: "https://images.unsplash.com/photo-1621905251189-08b45d6a2690",
+  hotWater: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
   taps: "https://images.unsplash.com/photo-1620626011761-996317b8d101",
-  aboutVan: "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088",
-  aboutTools: "https://images.unsplash.com/photo-1504148455328-c376922d011c",
+  aboutVan: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d",
+  aboutTools: "https://images.unsplash.com/photo-1504307651254-35680f356dfd",
   gcHome: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6",
 } as const;
 
