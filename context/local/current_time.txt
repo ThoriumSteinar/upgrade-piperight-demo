@@ -1,0 +1,5 @@
+﻿2026-08-04 16:41 +03:00 (Tuesday)
+tz_id: FLE Standard Time
+refreshed_at_epoch: 1785850912
+source: scripts/refresh_local_time.ps1
+

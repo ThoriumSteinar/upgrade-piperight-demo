@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  --color-bg: #f5f7fa;
+  --color-surface: #ffffff;
+  --color-text: #1a2332;
+  --color-muted: #5c6b7a;
+  --color-border: #dde3ea;
+  --color-call: #1b5e20;
+  --color-call-dark: #144a19;
+  --color-accent: #e8a317;
+  --color-accent-dark: #c8890f;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-heading), system-ui, sans-serif;
+}

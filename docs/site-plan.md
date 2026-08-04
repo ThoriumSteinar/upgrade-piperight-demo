@@ -3,7 +3,7 @@
 > **Fiction portfolio brief.** No live site. No real business. Do not contact anyone.  
 > **Task level:** L4 · greenfield · plan → ACK → build  
 > **Author:** Artem Wotan (UA-02) · **Date:** 2026-08-04  
-> **Status:** Phase 1 complete — awaiting Lika ACK (`site plan ok — build`)
+> **Status:** Phase 1 ACK ✅ · Phase 2 build shipped — awaiting Lika review
 
 ---
 
