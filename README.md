@@ -41,7 +41,7 @@ Home · Services · About · Reviews · Contact — no live URL, no outreach.
 | Home hero (trade/work) | https://unsplash.com/photos/fcd25c85cd64 |
 | Emergency / services | https://unsplash.com/photos/18bbc8c9d7d1 |
 | Drains (bathroom) | https://unsplash.com/photos/993a426fbf0a |
-| Hot water (home exterior) | https://unsplash.com/photos/be6161a56a0c |
+| Hot water (daylight home) | https://unsplash.com/photos/ab600027ffc6 |
 | Taps (bathroom fixture) | https://unsplash.com/photos/996317b8d101 |
 | About van / warehouse mood | https://unsplash.com/photos/ad8dd3c8310d |
 | About tools / work site | https://unsplash.com/photos/35680f356dfd |

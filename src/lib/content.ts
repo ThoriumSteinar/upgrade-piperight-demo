@@ -37,7 +37,7 @@ export const demoImages = {
   hero: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
   emergency: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1",
   drains: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a",
-  hotWater: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+  hotWater: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6",
   taps: "https://images.unsplash.com/photo-1620626011761-996317b8d101",
   aboutVan: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d",
   aboutTools: "https://images.unsplash.com/photo-1504307651254-35680f356dfd",

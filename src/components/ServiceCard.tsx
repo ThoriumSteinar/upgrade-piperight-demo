@@ -81,17 +81,17 @@ export function ServiceTeaser({
   return (
     <Link
       href={href}
-      className={`group relative block overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-border)] shadow-sm ${
-        tall ? "h-full min-h-[280px]" : ""
+      className={`group relative block overflow-hidden rounded-2xl border border-[var(--color-border)] shadow-sm ${
+        tall ? "h-full" : ""
       }`}
     >
       <div
-        className={`relative w-full ${
-          tall ? "h-full min-h-[280px]" : "aspect-[5/4]"
+        className={`relative w-full overflow-hidden ${
+          tall ? "h-full min-h-[320px] lg:min-h-[420px]" : "aspect-[4/3]"
         }`}
       >
         <Image
-          src={demoImg(demoImages[imageKey], tall ? 800 : 500)}
+          src={demoImg(demoImages[imageKey], tall ? 900 : 600)}
           alt=""
           fill
           className="object-cover transition group-hover:scale-[1.03]"

@@ -132,8 +132,8 @@ export default function HomePage() {
               All services →
             </Link>
           </div>
-          <div className="mt-8 grid auto-rows-fr gap-4 sm:grid-cols-2 lg:grid-cols-4 lg:grid-rows-2">
-            <div className="sm:col-span-2 lg:row-span-2">
+          <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4 lg:items-start">
+            <div className="h-full sm:col-span-2 lg:row-span-2">
               <ServiceTeaser
                 name={services[0].name}
                 imageKey="emergency"
