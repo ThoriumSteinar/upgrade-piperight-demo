@@ -32,16 +32,23 @@ export const trustBadges = [
   "Gold Coast based",
 ] as const;
 
-/** Unsplash — demo placeholders; sources in README */
+/** Unsplash — demo placeholders; each slot matches a service/context (see README) */
 export const demoImages = {
-  hero: "https://images.unsplash.com/photo-1722764386929-e6e1ac43f70a",
-  emergency: "https://images.unsplash.com/photo-1520863833497-09cca9d58714",
-  drains: "https://images.unsplash.com/photo-1609210884848-2d530cfb2a07",
-  hotWater: "https://images.unsplash.com/photo-1615873968403-89e068629265",
-  taps: "https://images.unsplash.com/photo-1629078692818-c5a0443f4ae3",
-  aboutVan: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8f3f",
-  aboutTools: "https://images.unsplash.com/photo-1662454379588-65fdd25622d0",
-  gcHome: "https://images.unsplash.com/photo-1646592491489-ebdf758b9d11",
+  /** Home hero — tradie working on pipes in a home */
+  hero: "https://images.unsplash.com/photo-1676210133055-eab6ef033ce3",
+  /** Emergency — burst/leaking pipe with water */
+  emergency: "https://images.unsplash.com/photo-1693874829318-43669125f796",
+  /** Blocked drains — bathroom floor drain */
+  drains: "https://images.unsplash.com/photo-1693326416437-083cbfa4ad5b",
+  /** Hot water — plumber servicing a unit */
+  hotWater: "https://images.unsplash.com/photo-1676210134190-3f2c0d5cf58d",
+  /** Taps — dripping faucet */
+  taps: "https://images.unsplash.com/photo-1759757707824-4e5f54b7a43c",
+  /** About — white work/cargo van (local crew) */
+  aboutVan: "https://images.unsplash.com/photo-1768400554801-2002b63e0591",
+  /** About — tradie tool bag */
+  aboutTools: "https://images.unsplash.com/photo-1771122453274-d3270e73cf94",
+  gcHome: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3",
 } as const;
 
 /** Hero copy — all four service suburbs */

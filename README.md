@@ -38,13 +38,13 @@ Home · Services · About · Reviews · Contact — no live URL, no outreach.
 
 | Use | Unsplash photo |
 |-----|----------------|
-| Home hero (sink / plumbing fixture) | [RH8izB4pXHk](https://unsplash.com/photos/a-stainless-steel-kitchen-sink-with-a-faucet-and-soap-dispenser-RH8izB4pXHk) |
-| Emergency (water-damage kitchen) | [q8fWPEF0E-c](https://unsplash.com/photos/wrecked-house-kitchen-q8fWPEF0E-c) |
-| Drains (kitchen sink) | [CmW1uWURB18](https://unsplash.com/photos/stainless-steel-sink-with-faucet-CmW1uWURB18) |
-| Hot water (tank unit) | [89e068629265](https://unsplash.com/photos/89e068629265) |
-| Taps (faucet) | [IcNpBCQS3fk](https://unsplash.com/photos/stainless-steel-faucet-turned-off-IcNpBCQS3fk) |
-| About — van / local crew | [cc02fe5d8f3f](https://unsplash.com/photos/white-van-on-road-during-daytime-cc02fe5d8f3f) |
-| About — repair / tools mood | [6IziI6_3piE](https://unsplash.com/photos/a-sink-and-a-faucet-in-a-kitchen-6IziI6_3piE) |
+| Home hero (plumber under sink / cabinet) | [wzIjLL4KB-4](https://unsplash.com/photos/a-man-working-on-a-pipe-in-a-cabinet-wzIjLL4KB-4) |
+| Emergency (leaking pipe) | [0bmUHpcd2AU](https://unsplash.com/photos/a-metal-pipe-with-water-coming-out-of-it-0bmUHpcd2AU) |
+| Blocked drains (bathroom floor drain) | [Bsw-804FEtQ](https://unsplash.com/photos/a-drain-in-the-floor-of-a-bathroom-Bsw-804FEtQ) |
+| Hot water (plumber servicing unit) | [kxuz4YrLxSc](https://unsplash.com/photos/a-man-fixing-a-water-heater-in-a-room-kxuz4YrLxSc) |
+| Taps (dripping faucet) | [5jJ4Nux6Ros](https://unsplash.com/photos/close-up-of-an-old-rusty-faucet-dripping-water-5jJ4Nux6Ros) |
+| About — white cargo/work van | [7e8QdaunUEI](https://unsplash.com/photos/a-white-cargo-van-parked-on-gravel-outdoors-7e8QdaunUEI) |
+| About — tradie tool bag | [IYgVzZrZeOw](https://unsplash.com/photos/close-up-of-a-tool-bag-with-various-items-inside-IYgVzZrZeOw) |
 
 All loaded via `images.unsplash.com` with crop params in `src/lib/content.ts`.
 
@@ -52,7 +52,7 @@ All loaded via `images.unsplash.com` with crop params in `src/lib/content.ts`.
 
 - Phase 1: [`docs/site-plan.md`](docs/site-plan.md)
 - Phase 2 plan: [`docs/phase2-plan.md`](docs/phase2-plan.md)
-- Daily: [`docs/daily-2026-08-04.md`](docs/daily-2026-08-04.md)
+- Daily: [`docs/daily-2026-08-04.md`](docs/daily-2026-08-04.md) · [`docs/daily-2026-08-05.md`](docs/daily-2026-08-05.md)
 - Screenshots: [`docs/screenshots/`](docs/screenshots/)
 
 ## Pref
