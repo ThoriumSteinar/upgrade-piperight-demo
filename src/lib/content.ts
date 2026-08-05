@@ -32,23 +32,30 @@ export const trustBadges = [
   "Gold Coast based",
 ] as const;
 
+const assetBase =
+  process.env.GITHUB_PAGES === "true" ? "/upgrade-piperight-demo" : "";
+
+function asset(path: string) {
+  return `${assetBase}${path}`;
+}
+
 /** Demo images — self-hosted in /public (Unsplash sources in README) */
 export const demoImages = {
   /** Home hero — tradie working on pipes under sink */
-  hero: "/images/demo/hero.jpg",
+  hero: asset("/images/demo/hero.jpg"),
   /** Emergency — burst/leaking pipe with water */
-  emergency: "/images/demo/emergency.jpg",
+  emergency: asset("/images/demo/emergency.jpg"),
   /** Blocked drains — bathroom floor drain */
-  drains: "/images/demo/drains.jpg",
+  drains: asset("/images/demo/drains.jpg"),
   /** Hot water — plumber servicing a unit */
-  hotWater: "/images/demo/hot-water.jpg",
+  hotWater: asset("/images/demo/hot-water.jpg"),
   /** Taps — dripping faucet */
-  taps: "/images/demo/taps.jpg",
+  taps: asset("/images/demo/taps.jpg"),
   /** About + home teaser — white work van */
-  aboutVan: "/images/demo/about-van.jpg",
+  aboutVan: asset("/images/demo/about-van.jpg"),
   /** About — tradie tool bag */
-  aboutTools: "/images/demo/about-tools.jpg",
-  gcHome: "/images/demo/hero.jpg",
+  aboutTools: asset("/images/demo/about-tools.jpg"),
+  gcHome: asset("/images/demo/hero.jpg"),
 } as const;
 
 /** Hero copy — all four service suburbs */
