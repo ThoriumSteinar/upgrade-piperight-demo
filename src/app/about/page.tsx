@@ -99,7 +99,8 @@ export default function AboutPage() {
 
       <div className="mt-10 rounded-2xl border border-dashed border-[var(--color-border)] bg-[var(--color-bg)] p-6 text-sm text-[var(--color-muted)]">
         Photos on this page are stock placeholders (van &amp; tools mood) — not
-        real Dave/Kylie portraits. See README for Unsplash sources.
+        real Dave/Kylie portraits. See README for Unsplash credits; files in{" "}
+        <code className="text-xs">public/images/demo/</code>.
       </div>
     </div>
   );

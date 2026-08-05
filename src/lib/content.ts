@@ -32,23 +32,23 @@ export const trustBadges = [
   "Gold Coast based",
 ] as const;
 
-/** Unsplash — demo placeholders; each slot matches a service/context (see README) */
+/** Demo images — self-hosted in /public (Unsplash sources in README) */
 export const demoImages = {
-  /** Home hero — tradie working on pipes in a home */
-  hero: "https://images.unsplash.com/photo-1676210133055-eab6ef033ce3",
+  /** Home hero — tradie working on pipes under sink */
+  hero: "/images/demo/hero.jpg",
   /** Emergency — burst/leaking pipe with water */
-  emergency: "https://images.unsplash.com/photo-1693874829318-43669125f796",
+  emergency: "/images/demo/emergency.jpg",
   /** Blocked drains — bathroom floor drain */
-  drains: "https://images.unsplash.com/photo-1693326416437-083cbfa4ad5b",
+  drains: "/images/demo/drains.jpg",
   /** Hot water — plumber servicing a unit */
-  hotWater: "https://images.unsplash.com/photo-1676210134190-3f2c0d5cf58d",
+  hotWater: "/images/demo/hot-water.jpg",
   /** Taps — dripping faucet */
-  taps: "https://images.unsplash.com/photo-1759757707824-4e5f54b7a43c",
-  /** About — white work/cargo van (local crew) */
-  aboutVan: "https://images.unsplash.com/photo-1768400554801-2002b63e0591",
+  taps: "/images/demo/taps.jpg",
+  /** About + home teaser — white work van */
+  aboutVan: "/images/demo/about-van.jpg",
   /** About — tradie tool bag */
-  aboutTools: "https://images.unsplash.com/photo-1771122453274-d3270e73cf94",
-  gcHome: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3",
+  aboutTools: "/images/demo/about-tools.jpg",
+  gcHome: "/images/demo/hero.jpg",
 } as const;
 
 /** Hero copy — all four service suburbs */
@@ -59,8 +59,8 @@ export function suburbsHeroList(): string {
 
 export type DemoImageKey = keyof typeof demoImages;
 
-export function demoImg(base: string, width: number) {
-  return `${base}?auto=format&fit=crop&w=${width}&q=80`;
+export function demoImg(base: string, _width?: number) {
+  return base;
 }
 
 export type Service = {
