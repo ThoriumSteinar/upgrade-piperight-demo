@@ -36,15 +36,15 @@ Home · Services · About · Reviews · Contact — no live URL, no outreach.
 
 ## Image sources (Unsplash — demo placeholders)
 
-| Use | URL |
-|-----|-----|
-| Home hero (trade/work) | https://unsplash.com/photos/fcd25c85cd64 |
-| Emergency / services | https://unsplash.com/photos/18bbc8c9d7d1 |
-| Drains (bathroom) | https://unsplash.com/photos/993a426fbf0a |
-| Hot water (daylight home) | https://unsplash.com/photos/ab600027ffc6 |
-| Taps (bathroom fixture) | https://unsplash.com/photos/996317b8d101 |
-| About van / warehouse mood | https://unsplash.com/photos/ad8dd3c8310d |
-| About tools / work site | https://unsplash.com/photos/35680f356dfd |
+| Use | Unsplash photo |
+|-----|----------------|
+| Home hero (sink / plumbing fixture) | [RH8izB4pXHk](https://unsplash.com/photos/a-stainless-steel-kitchen-sink-with-a-faucet-and-soap-dispenser-RH8izB4pXHk) |
+| Emergency (water-damage kitchen) | [q8fWPEF0E-c](https://unsplash.com/photos/wrecked-house-kitchen-q8fWPEF0E-c) |
+| Drains (kitchen sink) | [CmW1uWURB18](https://unsplash.com/photos/stainless-steel-sink-with-faucet-CmW1uWURB18) |
+| Hot water (tank unit) | [89e068629265](https://unsplash.com/photos/89e068629265) |
+| Taps (faucet) | [IcNpBCQS3fk](https://unsplash.com/photos/stainless-steel-faucet-turned-off-IcNpBCQS3fk) |
+| About — van / local crew | [cc02fe5d8f3f](https://unsplash.com/photos/white-van-on-road-during-daytime-cc02fe5d8f3f) |
+| About — repair / tools mood | [6IziI6_3piE](https://unsplash.com/photos/a-sink-and-a-faucet-in-a-kitchen-6IziI6_3piE) |
 
 All loaded via `images.unsplash.com` with crop params in `src/lib/content.ts`.
 

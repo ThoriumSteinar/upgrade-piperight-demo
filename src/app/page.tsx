@@ -8,6 +8,7 @@ import {
   reviews,
   services,
   site,
+  suburbsHeroList,
   trustBadges,
 } from "@/lib/content";
 
@@ -34,7 +35,7 @@ export default function HomePage() {
             </h1>
             <p className="mt-4 max-w-xl text-lg text-[var(--color-muted)]">
               Dave &amp; Kylie — small crew for burst pipes, blocked drains, hot
-              water, and everyday fixes across Nerang, Robina &amp; Helensvale.
+              water, and everyday fixes across {suburbsHeroList()}.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <a
